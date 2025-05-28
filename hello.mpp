@@ -1,0 +1,16 @@
+module;
+
+#include <iostream>
+#include <string>
+
+export module hello;
+
+export namespace hello {
+    std::string get_greeting() {
+        return "你好，世界！來自 C++20 模組的問候！";
+    }
+    
+    void print_hello() {
+        std::cout << get_greeting() << std::endl;
+    }
+}
