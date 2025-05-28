@@ -1,0 +1,11 @@
+# jetbrains
+.idea/
+
+# vim
+*.swo
+*.swp
+
+# xmake
+.xmake/
+build/
+
